@@ -1,0 +1,154 @@
+
+
+
+
+
+.header{
+	
+background:$primarna-boja;
+height:93px;
+
+
+.logo{
+	
+
+	float:right;
+
+
+
+}
+
+.vrsta{
+margin-right:0px;
+margin-left:0px;
+
+
+height:100%;
+
+
+.lijevo{
+
+padding-top:12px;
+
+
+	
+
+
+
+height:100%;
+
+background:$cetvrta-boja;
+
+
+
+}
+
+
+.desno{
+
+
+
+background:$primarna-boja;
+
+padding-top:35px;
+padding-bottom:35px;
+padding-right:0px;
+height:100%;
+text-align:center;
+
+
+}
+
+
+
+.nav li {
+	
+	font-size:19px;
+	margin-right:63px;
+
+
+	
+
+	display:inline-block;
+
+a{
+	
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	color:$tercijarna-boja;
+	padding-bottom:26px;
+	
+
+
+
+}
+
+
+.active{
+	
+	color:black;
+	@include dodaj-ivicu(5px, $tercijarna-boja, 'bottom');
+	background:$primarna-boja;
+
+
+}
+
+
+a:hover{
+	
+	
+	color:$sekundarna-boja;
+	@include dodaj-ivicu(5px, $sekundarna-boja, 'bottom');
+	background:$primarna-boja;
+
+	
+
+
+}
+
+}
+
+
+.nav li:hover{}
+
+
+}
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+
+	
+.logo  {
+		    
+    	    display:none !important;
+
+
+		}
+
+.lijevo{
+	 display:none !important;
+}
+
+.nav{
+	
+float:left !important;
+float:right !important;
+
+
+}
+
+
+}

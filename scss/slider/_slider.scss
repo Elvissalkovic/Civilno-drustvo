@@ -1,0 +1,144 @@
+.bs-example{
+	
+
+
+
+
+	margin-top:-96px;
+	
+	width:100%;
+	height:auto;
+
+
+
+.carousel-inner > .item {
+	
+margin-right: 0px !important;
+margin-left: 0px !important;
+
+
+
+}
+
+.carousel-inner > .item  > img {
+	width:100%  !important;
+margin-right: 0px !important;
+margin-left: 0px !important;
+
+
+
+}
+
+
+
+
+}
+
+.carousel{
+	
+	width:100%;
+	height:auto;
+    
+       
+}
+
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+
+
+.myCarousel{
+	width:100%;
+		
+		height:auto;
+	
+}
+
+
+.carousel-inner{
+
+		    margin-top: 0px;
+		
+		width:100%;
+		
+		height:auto;
+		
+
+
+	}
+
+
+	.carousel-control .glyphicon-chevron-right {
+    right: 125%;
+    color:$sekundarna-boja;
+}
+
+
+
+
+
+
+.carousel-control .glyphicon-chevron-left {
+    left: 125%;
+    color:$sekundarna-boja;
+
+}
+
+
+
+.carousel-control .glyphicon-chevron-right:hover {
+    color:$tercijarna-boja;
+}
+
+
+.carousel-control .glyphicon-chevron-left:hover {
+    color:$tercijarna-boja;
+}
+
+
+
+
+
+
+
+
+
+
+.carousel-indicators {
+    bottom:120px;
+    
+
+
+
+
+
+
+
+
+ li {
+   
+    width: 20px;
+    height:  20px;
+    @include dodaj-ivicu(1px, $sekundarna-boja, 'all');
+    background-color:$primarna-boja;
+    display:inline-block;
+    float:right;
+
+    }
+
+
+.active{
+
+	width: 27px;
+    height: 27px;
+    border-radius:25px;
+    background-color:$tercijarna-boja;
+    @include dodaj-ivicu(1px, $tercijarna-boja, 'all');
+}
+
+
+
+  }
+

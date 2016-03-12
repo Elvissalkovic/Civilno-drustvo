@@ -1,0 +1,267 @@
+.supporting{
+
+	width:100%;
+	height: 330px;
+	float:left;
+	   margin-top: 29px;
+
+	background:#e9f7fe;
+	color:blue;
+.vrsta{
+	margin-right:0px;
+	margin-left:0px;
+
+
+}
+
+
+ 
+ .container2{
+
+	
+	margin-left:370px;
+
+	.prvo{
+
+		color:$sekundarna-boja;
+
+	}
+
+
+	.drugo{
+
+		color:$tercijarna-boja;
+
+	}
+
+
+	.sup-prva{
+	    
+
+background: url("../img/lupaIgrad-zatvoreno.png");
+background-repeat: no-repeat;
+background-size:314px 151px;
+    width: 88%;
+        height: 202px;
+
+
+}
+
+	.sup-prva:hover{
+	
+    width: 88%;
+    height: 223px;
+background: url("../img/lupaIgrad-otvoreno.png");
+background-repeat: no-repeat;
+background-size:316px 155px;
+margin-top: -22px;
+
+
+
+}
+
+.sup-druga{
+	    
+background: url("../img/porukaIgrad-zatvoreno.png");
+background-repeat: no-repeat;
+background-size:314px 151px;
+    width: 88%;
+    height: 202px;
+
+}
+
+
+
+.sup-druga:hover{
+	
+width: 88%;
+
+height: 206px;
+background: url("../img/porukaIgrad-otvoreno.png");
+background-repeat: no-repeat;
+background-size:316px 155px;
+margin-top: -5px;
+
+
+}
+
+
+
+	
+
+		
+.O-bazi:hover{
+	
+background:white;
+
+	
+
+
+
+}
+
+
+.Kontaktirajte:hover{
+	
+background:white;
+	
+
+
+
+}
+
+
+
+
+
+
+}
+
+img{
+	
+	margin-left:1.4%;
+	
+
+}
+
+
+
+
+
+.image {
+position:relative;
+    margin-top: 20px;
+    width:22.34%;
+    display:inline-block;
+
+
+ h4 { 
+   font-size:26px;
+       margin-top: -48px;
+    margin-left: 20px;
+}
+.datum{
+	
+ margin-top: -10px;
+
+    margin-left: 14px;
+
+
+}
+
+   
+}
+
+
+#supporting-slika{
+
+position: absolute;
+      clip: rect(0, 530px, 306px, 0);
+    margin-left: 224px;
+
+} 
+
+.tekst1{
+       font-size: 13px;
+	
+	vertical-align: top;
+	display:inline-block;
+
+	    width: 313px;
+
+	margin-top:18px;
+	}
+
+
+
+
+.link1{
+	
+
+
+padding-left:3px;
+color:$primarna-boja;
+background:$sekundarna-boja;
+width:18.75%;
+padding:5px 10px 5px 10px;
+
+margin-left:3px;
+text-decoration:none;
+
+.glyphicon{
+	
+
+    margin-left: 50%;
+
+}
+}
+
+
+.link1:hover{
+	
+
+
+
+background:$tercijarna-boja;
+
+}
+
+h2{
+	
+	
+
+color:black;
+.drugo {
+	
+	color:$tercijarna-boja;
+
+}
+
+
+
+}
+
+
+.Aktuelnosti{
+padding-left:20px;
+
+
+}
+
+
+.link2 {
+	
+	text-decoration:none;
+	color:$tercijarna-boja;
+	
+}
+
+.link2:hover{
+	
+color:$sekundarna-boja;
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1680px){
+
+
+	
+.tekst1{
+font-size:5px;
+}
+
+
+
+}
